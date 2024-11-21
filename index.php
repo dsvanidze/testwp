@@ -1,0 +1,320 @@
+<?php get_header() ?>
+
+    <!-- ONE -->
+    <div class="container-fluid full_1">
+      <div class="container full_1">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="margin-right: 46%">
+              <img src= "/images/logo.png" alt="logo"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href=<?php echo site_url('/style-demo');?>>Style demo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FULL WIDTH</a>
+                </li> 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">DROPDOWN</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">GALLERY</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PORTFOLIO</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li> 
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- TWO -->
+    <div class="container-fluid">
+      <div class="container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <ul class="carousel-indicators">
+            <li type="button" data-bs-target="#demo" data-bs-slide-to="0"></li>
+            <li type="button" data-bs-target="#demo" data-bs-slide-to="1"></li>
+            <li type="button" data-bs-target="#demo" data-bs-slide-to="2"></li>
+            <li type="button" data-bs-target="#demo" data-bs-slide-to="3" class="active"></li>
+            <li type="button" data-bs-target="#demo" data-bs-slide-to="4"></li>
+          </ul>
+  
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="<?php echo get_template_directory_uri(); ?>'/images/beach.jpg'"  alt="beach" class="d-block" style="width:100% ">
+             <div class="carousel-caption">
+                <div class="carsl">
+                  <p>Slide 1 Caption</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora voluptatem! Minima alias ipsum quam vitae deleniti delectus?</p>
+                </div>
+             </div>
+            </div>
+            
+            <div class="carousel-item">
+            <img src="<?php echo get_template_directory_uri(); ?>'/images/beach.jpg'"  alt="beach" class="d-block" style="width:100% ">
+              <div class="carousel-caption">
+                <div class="carsl">
+                  <p>Slide 2 Caption</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora voluptatem! Minima alias ipsum quam vitae deleniti delectus?</p>
+                </div>
+            </div> 
+            </div>
+
+            <div class="carousel-item">
+             <img src="<?php echo get_template_directory_uri(); ?>'/images/beach.jpg' " alt="beach" class="d-block" style="width:100%">
+             <div class="carousel-caption">
+              <div class="carsl">
+               <p>Slide 3 Caption</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora voluptatem! Minima alias ipsum quam vitae deleniti delectus?</p>
+              </div>
+             </div>  
+            </div>
+
+            <div class="carousel-item">
+              <img src="<?php echo get_template_directory_uri() ;?> '/images/beach.jpg'" alt="beach" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <div class="carsl">
+                  <p>Slide 4 Caption</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora voluptatem! Minima alias ipsum quam vitae deleniti delectus?</p>
+                </div>
+              </div>  
+            </div>
+
+            <div class="carousel-item">
+             <img src="<?php echo get_template_directory_uri() ;?> '/images/beach.jpg'" alt="beach" class="d-block" style="width:100%">
+             <div class="carousel-caption">
+              <div class="carsl">
+                <p>Slide 5 Caption</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora voluptatem! Minima alias ipsum quam vitae deleniti delectus?</p>
+              </div>
+            </div>  
+          </div>
+
+          <button class="carousel-control-prev rounded-circle" type="button" data-bs-target="#demo" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next rounded-circle" type="button" data-bs-target="#demo" data-bs-slide="next">
+           <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        </div>      
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- THREE -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 marg_right_50">
+            <div id="wrapper" class="mb-5">
+              <div class="line"></div>
+              <div class="textbox">
+                <div class="text">YOUR TITLE HERE</div>
+              </div>
+            </div>
+            <div class="row m-auto pb-5 mb-4">
+              <div class="col-4">
+                <img src=<?php echo get_template_directory_uri() . '/images/table.avif' ?> class="rounded-circle img-fluid" alt="table" width="304" height="236">
+              </div>
+              <div class="col-7">
+                <h6>Title Goes Here</h6>
+                <p class="text-secondary fon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis natus, similique, assumenda repellat eum deleniti assumenda.</p>
+                <button type="button" class="btn p-0 m-0">
+                  <a class="link-secondary readmore" href="#">Read More &gt;&gt;</a>
+                </button>
+              </div>
+            </div>
+            <div class="row m-auto">
+              <div class="col-4">
+                <img src=<?php echo get_template_directory_uri() . '/images/nature.jpg' ?> class="rounded-circle img-fluid" alt="nature" width="304" height="236">
+              </div>
+              <div class="col-7">
+                <h6>Title Goes Here</h6>
+                <p class="text-secondary fon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis natus, similique, assumenda repellat eum deleniti assumenda.</p>
+                <button type="button" class="btn p-0 m-0">
+                  <a class="link-secondary readmore" href="#">Read More &gt;&gt;</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div id="wrapper" class="mb-5">
+              <div class="line"></div>
+              <div class="textbox">
+                <div class="text">YOUR TITLE HERE</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card col py-3 marg_right_30_res bg-light" style="width:auto;">
+                <a href="#">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img class="card-img-top w-50" src= "/images/seb.webp" alt="Card image">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title w-100 text-center h1 text-dark">PERSONS NAME</h4>
+                    <p class="card-text text-secondary w-100 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor quia perferendis fuga quasi.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card col py-3 bg_brown" style="width:auto;">
+                <a href="#">
+                  <div class="w-100 d-flex justify-content-center">
+                    <img class="card-img-top w-50" src= "/images/seb.webp" alt="Card image">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title w-100 text-center h1 text-light">PERSONS NAME</h4>
+                    <p class="card-text text-light w-100 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor quia perferendis fuga quasi.</p>
+                  </div> 
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOUR -->
+    <div class="container-fluid">
+      <div class="container mb-2">
+        <div class="row">
+          <div class="col-sm-5 border_top marg_right_50">
+            <div class="row">
+              <div class="col">
+                <button class="prv">&lt;&lt; PREV</button>
+              </div>
+              <div class="col">
+                <button class="nxt float-end">NEXT &gt;&gt;</button>
+              </div>
+            </div>
+            <table class="table table-bordered table-sm">
+              <thead>
+                <tr>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td class="align-content-center">1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-6">
+            <div class="row text_darkgrey">
+              <div class="col border_top marg">
+                <div class="h6">LATEST BLOG POSTS</div>
+                <div class="mb-3">
+                  <div>
+                    <h6 class="mb-0">Post Title</h6>
+                    <p class="mb-0 font_small"><span>Admin</span>,domainname.com</p>
+                    <p class="mb-2 font_small">Friday, 6th April 2000</p>
+                  </div>
+                  <div class="mb-2 font_small fon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit accusamus ex cupiditate aut. Sit accusamus ex cupiditate aut.</div>
+                  <div class="d-flex justify-content-end">                
+                    <button type="button" class="btn p-0 m-0 text_red">
+                      <a class="link font_medium" href="#">Read More &gt;&gt;</a>
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h6 class="mb-0">Post Title</h6>
+                    <p class="mb-0 font_small"><span>Admin</span>,domainname.com</p>
+                    <p class="mb-2 font_small">Friday, 6th April 2000</p>
+                  </div>
+                  <div class="mb-2 font_small fon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit accusamus ex cupiditate aut. Sit accusamus ex cupiditate aut.</div>
+                  <div class="d-flex justify-content-end">                
+                    <button type="button" class="btn p-0 m-0 text_red">
+                      <a class="link font_medium" href="#">Read More &gt;&gt;</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col border_top">
+                <div class="h6">CONTACT US</div>
+                <div>
+                  <form>
+                    <input type="text" class="form-control mt-3" placeholder="Name">
+                    <input type="email" class="form-control mt-3" id="email" placeholder="Email" name="email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <textarea class="form-control mt-3" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-primary mt-3 clr">SUMBIT</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+<?php get_footer() ?>
