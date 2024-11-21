@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-sm navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#" style="margin-right: 46%">
-              <img src= "/images/logo.png" alt="logo"> 
+              <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo"> 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
   
           <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="<?php echo get_template_directory_uri(); ?>'/images/beach.jpg'"  alt="beach" class="d-block" style="width:100% ">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/beach.jpg"  alt="beach" class="d-block" style="width:100% ">
              <div class="carousel-caption">
                 <div class="carsl">
                   <p>Slide 1 Caption</p>
@@ -69,7 +69,7 @@
             </div>
             
             <div class="carousel-item">
-            <img src="<?php echo get_template_directory_uri(); ?>'/images/beach.jpg'"  alt="beach" class="d-block" style="width:100% ">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/beach.jpg"  alt="beach" class="d-block" style="width:100% ">
               <div class="carousel-caption">
                 <div class="carsl">
                   <p>Slide 2 Caption</p>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="carousel-item">
-             <img src="<?php echo get_template_directory_uri(); ?>'/images/beach.jpg' " alt="beach" class="d-block" style="width:100%">
+             <img src="<?php echo get_template_directory_uri(); ?>/images/beach.jpg" alt="beach" class="d-block" style="width:100%">
              <div class="carousel-caption">
               <div class="carsl">
                <p>Slide 3 Caption</p>
@@ -89,7 +89,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="<?php echo get_template_directory_uri() ;?> '/images/beach.jpg'" alt="beach" class="d-block" style="width:100%">
+              <img src="<?php echo get_template_directory_uri() ;?>/images/beach.jpg" alt="beach" class="d-block" style="width:100%">
               <div class="carousel-caption">
                 <div class="carsl">
                   <p>Slide 4 Caption</p>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="carousel-item">
-             <img src="<?php echo get_template_directory_uri() ;?> '/images/beach.jpg'" alt="beach" class="d-block" style="width:100%">
+             <img src="<?php echo get_template_directory_uri() ;?>/images/beach.jpg" alt="beach" class="d-block" style="width:100%">
              <div class="carousel-caption">
               <div class="carsl">
                 <p>Slide 5 Caption</p>
@@ -134,7 +134,7 @@
             </div>
             <div class="row m-auto pb-5 mb-4">
               <div class="col-4">
-                <img src=<?php echo get_template_directory_uri() . '/images/table.avif' ?> class="rounded-circle img-fluid" alt="table" width="304" height="236">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/table.avif" class="rounded-circle img-fluid" alt="table" width="304" height="236">
               </div>
               <div class="col-7">
                 <h6>Title Goes Here</h6>
@@ -146,7 +146,7 @@
             </div>
             <div class="row m-auto">
               <div class="col-4">
-                <img src=<?php echo get_template_directory_uri() . '/images/nature.jpg' ?> class="rounded-circle img-fluid" alt="nature" width="304" height="236">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/nature.jpg" class="rounded-circle img-fluid" alt="nature" width="304" height="236">
               </div>
               <div class="col-7">
                 <h6>Title Goes Here</h6>
@@ -168,7 +168,7 @@
               <div class="card col py-3 marg_right_30_res bg-light" style="width:auto;">
                 <a href="#">
                   <div class="w-100 d-flex justify-content-center">
-                    <img class="card-img-top w-50" src= "/images/seb.webp" alt="Card image">
+                    <img class="card-img-top w-50" src="<?php echo get_template_directory_uri(); ?>/images/seb.webp" alt="Card image">
                   </div>
                   <div class="card-body">
                     <h4 class="card-title w-100 text-center h1 text-dark">PERSONS NAME</h4>
@@ -179,7 +179,7 @@
               <div class="card col py-3 bg_brown" style="width:auto;">
                 <a href="#">
                   <div class="w-100 d-flex justify-content-center">
-                    <img class="card-img-top w-50" src= "/images/seb.webp" alt="Card image">
+                    <img class="card-img-top w-50" src="<?php echo get_template_directory_uri(); ?>/images/seb.webp" alt="Card image">
                   </div>
                   <div class="card-body">
                     <h4 class="card-title w-100 text-center h1 text-light">PERSONS NAME</h4>
@@ -317,4 +317,5 @@
       </div>
     </div>
   </main>
+  
 <?php get_footer() ?>
